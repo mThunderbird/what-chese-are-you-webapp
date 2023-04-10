@@ -2,13 +2,23 @@ import axios, {Axios, AxiosResponse} from 'axios';
 import express, {Request, Response} from 'express';
 import { IQuizData } from './interfaces';
 import * as dotenv from 'dotenv';
+
+import path from 'path';
+
 dotenv.config();
 
 const PORT = 8000;
 const app = express();
 
+app.use(
+    express.static(__dirname + "/build")
+  );
 
-app.get('/quiz-item',async (req: Request, res: Response) => {
+app.get('/', (req: Request, res: Response) => {
+    res.sendFile(__dirname + "/build/index.html");
+})
+
+app.get('/quiz-item', async (req: Request, res: Response) => {
     
     try{
        
@@ -36,5 +46,5 @@ app.get('/quiz-item',async (req: Request, res: Response) => {
 })
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}⚡!`);
+    console.log(`Server running on localhost:${PORT} ⚡!`);
 })
