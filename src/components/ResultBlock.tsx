@@ -28,7 +28,6 @@ function ResultBlock( {answers, chosenAnswers} :
   return (
     <div className='result-block'>
       <h2>{result?.text}</h2>
-      <br />
       <img id='result' src={result?.image} alt={result?.alt} />
     </div>
   );

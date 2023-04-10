@@ -11,7 +11,7 @@ body {
 }
 
 .app {
-    width: 600px;
+    width: 37.5rem;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h2 {
 }   
 
 h3 {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 p {
@@ -36,10 +36,10 @@ p {
 }
 
 .question-block-title {
-    width: 600px;
-    height: 210px;
+    width: 37.5rem;
+    height: 13.125rem;
     background-color: rgb(102, 69, 221);
-    border-radius: 5px;
+    border-radius: 0.313rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,12 +54,12 @@ p {
 
 .answer-option {
     border: none;
-    width: 286px;
+    width: 17.875rem;
     overflow: hidden;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: rgb(0,0,0,0.07) 0 0 0 1px;
-    margin-bottom: 15px;
+    border-radius: 0.313rem;
+    box-shadow: rgb(0,0,0,0.07) 0 0 0 0.063rem;
+    margin-bottom: 0.938rem;
     padding: 0;
 }
 
@@ -74,25 +74,22 @@ p {
 }
 
 .result-block {
+    width: 37.5rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     color: white;
     border: none;
-    box-shadow: rgb(0, 0, 0, 0.07) 0 0 0 1px;
+    box-shadow: rgb(0, 0, 0, 0.07) 0 0 0 0.063rem;
     background-color: rgb(102, 69, 221);
-    border-radius: 5px;
-}
-
-.result-block h2 {
-    width: 600px;
+    border-radius: 0.313rem;
 }
 
 .result-block img {
     width: auto;
-    border: 5px solid white;
-    border-radius: 5px;
+    border: 0.313rem solid white;
+    border-radius: 0.313rem;
     padding: none;
-    margin-bottom: 28px
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
 }
