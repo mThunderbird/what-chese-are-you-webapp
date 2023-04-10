@@ -1,3 +1,8 @@
+# I have created this project, following a Tutorial by freeCodeCamp.org
+https://www.youtube.com/watch?v=qkQr42DmaEE&t=10422s
+
+This project has helped me learn the basics of React and communication between backend, frontend and a database.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
